@@ -940,6 +940,7 @@ img {
     .skills__container,
     .portfolio__content,
     .contact__container,
+    .qualification__data,
     .footer__container {
         grid-template-columns: repeat(2, 1fr);
     }
