@@ -103,7 +103,7 @@
 									<image
 										class="home__blob-img"
 										x="18"
-										y="-20"
+										y="16"
 										xlink:href="assets/img/perfil.png"
 									/>
 								</g>
@@ -503,64 +503,77 @@
 			<section class="portfolio section" id="portfolio">
 				<h2 class="section__title">Portfolio</h2>
 				<span class="section__subtitle">Most recent work</span>
-				<div class="portfolio__container container swiper mySwiper">
-					<div class="swiper-wrapper">
-						<div class="portfolio__content grid swiper-slide">
-							<img
-								src="assets/img/portfolio1.jpg"
-								alt=""
-								class="portfolio__img"
-							/>
-							<div class="portfolio__data">
-								<h3 class="portfolio__title">Youpet</h3>
-								<p class="portfolio__description">
-									Website for management of shifts with the different
-									veterinarians, for users who register and perform the
-									subsequent login, making payments for book appointments,
-									filtering the different veterinarians according to their
-									specialty and the possibility of adding them to a list of
-									favorites for each user.
-								</p>
-								<a
-									href="https://youpet.vercel.app/"
-									class="button button--flex button--small portfolio__button"
-								>
-									Demo
-									<i class="uil uil-arrow-right button__icon"></i>
-								</a>
+				<div class="portfolio__container container swiper">
+					<swiper-container
+						class="mySwiper"
+						pagination="true"
+						pagination-clickable="true"
+						navigation="true"
+						space-between="30"
+						loop="true"
+					>
+						<swiper-slide>
+							<div class="portfolio__content grid">
+								<img
+									src="assets/img/portfolio1.jpg"
+									alt=""
+									class="portfolio__img"
+								/>
+								<div class="portfolio__data">
+									<h3 class="portfolio__title">Youpet</h3>
+									<p class="portfolio__description">
+										Website for management of shifts with the different
+										veterinarians, for users who register and perform the
+										subsequent login, making payments for book appointments,
+										filtering the different veterinarians according to their
+										specialty and the possibility of adding them to a list of
+										favorites for each user.
+									</p>
+									<a
+										href="https://youpet.vercel.app/"
+										class="button button--flex button--small portfolio__button"
+									>
+										Demo
+										<i class="uil uil-arrow-right button__icon"></i>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div class="portfolio__content grid swiper-slide">
-							<img
-								src="assets/img/portfolio2.jpg"
-								alt=""
-								class="portfolio__img"
-							/>
-							<div class="portfolio__data">
-								<h3 class="portfolio__title">Countries Individual Project</h3>
-								<p class="portfolio__description">
-									Website that displays the different countries of the world,
-									with the possibility of filtering them, search, seeing their
-									respective details and, finally, the ability to create tourist
-									activities to one or several countries simultaneously.
-								</p>
-								<a
-									href="https://github.com/gastonvalles/Countries-PI"
-									class="button button--flex button--small portfolio__button"
-								>
-									Repository
-									<i class="uil uil-arrow-right button__icon"></i>
-								</a>
+						</swiper-slide>
+
+						<swiper-slide>
+							<div class="portfolio__content grid">
+								<img
+									src="assets/img/portfolio2.jpg"
+									alt=""
+									class="portfolio__img"
+								/>
+								<div class="portfolio__data">
+									<h3 class="portfolio__title">Countries Individual Project</h3>
+									<p class="portfolio__description">
+										Website that displays the different countries of the world,
+										with the possibility of filtering them, search, seeing their
+										respective details and, finally, the ability to create
+										tourist activities to one or several countries
+										simultaneously.
+									</p>
+									<a
+										href="https://github.com/gastonvalles/Countries-PI"
+										class="button button--flex button--small portfolio__button"
+									>
+										Repository
+										<i class="uil uil-arrow-right button__icon"></i>
+									</a>
+								</div>
 							</div>
+						</swiper-slide>
+						<div class="swiper-button-prev">
+							<i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
 						</div>
-					</div>
-					<div class="swiper-button-next">
-						<i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-					</div>
-					<div class="swiper-button-prev">
-						<i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-					</div>
-					<div class="swiper-pagination"></div>
+						<div class="swiper-button-next">
+							<i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+						</div>
+						<div class="swiper-pagination"></div>
+					</swiper-container>
 				</div>
 			</section>
 			<section class="contact section" id="contact">
@@ -621,7 +634,7 @@
 		<a href="#" class="scrollup" id="scroll-up">
 			<i class="uil uil-arrow-up scrollup__icon"></i>
 		</a>
-		<script src="assets/js/swiper-bundle.min.js"></script>
+		<script src="assets/js/swiper-element-bundle.min.js"></script>
 		<script src="assets/js/main.js"></script>
 	</body>
 </html>
