@@ -1,7 +1,5 @@
 # Old-Portfolio
 
-![Portfolio Preview](./preview.png)
-
 Welcome to my Old Portfolio project! This is a fully responsive Single Page Application (SPA) built using HTML, CSS, and vanilla JavaScript. The portfolio showcases my work and skills, while also featuring some interactive elements, animations, and a dark mode.
 
 ## Features
@@ -22,10 +20,9 @@ git clone https://github.com/gastonvalles/Old-Portfolio
 2. Open the `index.html` file in your web browser to view the portfolio.
 
 ## Project Structure
-- index.html: The main HTML file that represents the structure of the portfolio.
-- styles.css: The CSS file containing styles for the portfolio layout, design, and responsiveness.
-- script.js: The JavaScript file that adds interactivity, animations, and implements the dark mode functionality.
-- preview.png: An image preview of the portfolio.
+- `index.html`: The main HTML file that represents the structure of the portfolio.
+- `styles.css`: The CSS file containing styles for the portfolio layout, design, and responsiveness.
+- `script.js`: The JavaScript file that adds interactivity, animations, and implements the dark mode functionality.
 
 ## Contributing
 Feel free to contribute to this project by suggesting improvements, reporting issues, or submitting pull requests.
