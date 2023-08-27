@@ -16,7 +16,7 @@ Welcome to my Old Portfolio project! This is a fully responsive Single Page Appl
 1. Clone this repository to your local machine:
 
 ```bash
-git clone [repository_url]
+git clone https://github.com/gastonvalles/Old-Portfolio
 ```
 
 2. Open the `index.html` file in your web browser to view the portfolio.
@@ -31,6 +31,8 @@ git clone [repository_url]
 Feel free to contribute to this project by suggesting improvements, reporting issues, or submitting pull requests.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
+
+---
 
 Thank you for checking out my Old Portfolio! If you have any questions or feedback, feel free to reach out.
